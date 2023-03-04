@@ -38,12 +38,13 @@ header {
 .animations {
   position: relative;
   padding: 300px 0;
+  overflow: hidden;
 }
 .left,
 .right {
   width: 100px;
   height: 100px;
-  background-color: grey;
+  /*background-color: grey;  ამის წაშლის უფლებას არ მაძლევს (აწითლებს), თან არაფერო ცვლილებაა არ ჩანს სადმე და რა არის არასწორი?*/
   position: absolute;
 }
 .left {
@@ -58,7 +59,7 @@ header {
 }
 .right {
   right: 0;
-  top: 20%;
+  top: 50%;
   animation-name: moveLeft;
   animation-delay: 1s;
   animation-duration: 3s;
