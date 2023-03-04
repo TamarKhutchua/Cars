@@ -35,3 +35,34 @@ header {
   width: 80px;
   height: 80px;
 }
+.animations {
+  position: relative;
+  padding: 300px 0;
+}
+.left,
+.right {
+  width: 100px;
+  height: 100px;
+  background-color: grey;
+  position: absolute;
+}
+.left {
+  top: 50%;
+  left: 0;
+  animation-name: moveRight;
+  animation-delay: 1s;
+  animation-duration: 3s;
+  animation-timing-function: linear;
+
+  animation-iteration-count: 5;
+}
+.right {
+  right: 0;
+  top: 20%;
+  animation-name: moveLeft;
+  animation-delay: 1s;
+  animation-duration: 3s;
+  animation-timing-function: linear;
+
+  animation-iteration-count: 5;
+}
