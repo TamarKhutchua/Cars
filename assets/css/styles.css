@@ -49,7 +49,7 @@ header {
 }
 .left {
   top: 50%;
-  left: 0;
+  left: 2%;
   animation-name: moveRight;
   animation-delay: 1s;
   animation-duration: 3s;
@@ -58,7 +58,7 @@ header {
   animation-iteration-count: 5;
 }
 .right {
-  right: 0;
+  right: 5%;
   top: 50%;
   animation-name: moveLeft;
   animation-delay: 1s;
